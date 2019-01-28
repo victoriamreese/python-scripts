@@ -7,6 +7,7 @@ Created on Sat Jan 19 11:23:40 2019
 """
 
 #1/22/19 Move Zeroes to the End 
+#https://www.codewars.com/kata/moving-zeros-to-the-end
 
 array1 = [9,0.0,9,1,2,0,1,0,1,0.0,3,0,1,9,0,0,0,0,9]
 array2 = [0,1,None,2,False,1,0]
@@ -25,6 +26,4 @@ move_zeros(array3)
 
 #types that are not moved: booleans, strings, numbers greater than 0, nonetype
 #prob: nonetype cannot be compared to zero, must be 
-n is False
-
 
